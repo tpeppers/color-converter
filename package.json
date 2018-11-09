@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node -r agent_nodejs_linux64 app/server.js",
-    "test": "./node_modules/.bin/mocha --require /agent_nodejs_linux64 --reporter spec"
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "author": "Rob Layzell",
   "license": "ISC",
